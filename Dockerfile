@@ -12,7 +12,8 @@ WORKDIR /app
 
 # Install Python requirements
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir --no-deps discord-native-voice==0.1.1
 
 # Copy application files
 COPY . .
