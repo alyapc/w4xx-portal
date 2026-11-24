@@ -2,6 +2,6 @@ fastapi>=0.110.0
 uvicorn[standard]>=0.28.0
 python-multipart>=0.0.9
 aiohttp>=3.9.0
+curl_cffi>=0.7.0
 davey==0.1.7
-discord-native-voice==0.1.1
 git+https://github.com/dolfies/discord.py-self.git
